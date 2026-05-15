@@ -1,0 +1,608 @@
+{
+  "dynasties": [
+    {
+      "id": "xianqin",
+      "name": "先秦",
+      "period": "前770 - 前221",
+      "subtitle": "齐鲁肇始 · 夯土筑城",
+      "description": "齐国以临淄为都，开创了中国最早的城邦营造体系。高台建筑、版筑夯土技术领先诸侯。",
+      "center": "齐都临淄",
+      "techFeatures": {
+        "structure": "夯土台基+木骨泥墙",
+        "roof": "茅草覆顶+陶瓦萌芽",
+        "dougong": "未形成斗拱体系",
+        "material": "夯土、木材、茅草、陶瓦",
+        "decoration": "青铜构件、彩绘萌芽"
+      },
+      "stats": { "total": 8, "palace": 2, "official": 2, "folk": 3, "bridge": 1 },
+      "buildings": [
+        {
+          "id": "linzi_gongshi", "name": "临淄齐宫遗址", "type": "palace", "era": "先秦",
+          "location": "淄博临淄", "year": "前1046", "protection": "全国重点文保",
+          "params": { "bays": "不详", "ridgeHeight": 12, "baseHeight": 4, "area": 3000 },
+          "techLevel": 2, "color": "#C4392B",
+          "description": "齐国宫室建筑群，以高台建筑为主。遗址发现大型夯土台基，高约4米，面积超过3000㎡。",
+          "story": "临淄曾是春秋战国时期最大的城市之一，人口达35万。齐桓公时期，临淄城的营造达到鼎盛，宫殿高台凌空，'临淄之中七万户，甚富而实'。"
+        },
+        {
+          "id": "linzi_guanshu", "name": "齐国官署遗址", "type": "official", "era": "先秦",
+          "location": "淄博临淄", "year": "前770", "protection": "遗址保护",
+          "params": { "bays": 5, "ridgeHeight": 7, "baseHeight": 1.5, "area": 800 },
+          "techLevel": 2, "color": "#D4A944",
+          "description": "齐国行政官署建筑遗址，发现夯土墙基和柱础遗迹。面阔五间，有明确的中轴对称布局。",
+          "story": "齐国设相邦、五官等官制，官署建筑已形成'前堂后寝'的基本格局，这一制度深刻影响了后世两千年的官府建筑形制。"
+        },
+        {
+          "id": "xianqin_minju", "name": "齐国民居遗址", "type": "folk", "era": "先秦",
+          "location": "淄博临淄", "year": "前600", "protection": "考古遗址",
+          "params": { "bays": 3, "ridgeHeight": 4, "baseHeight": 0.5, "area": 60 },
+          "techLevel": 1, "color": "#7BA383",
+          "description": "临淄城内平民居住区遗址，发现半地穴式和地面式两种民居形式。以土坯砌墙、茅草覆顶。",
+          "story": "《管子》记载齐国民居'冬作土室，夏居茅檐'，反映了先秦时期齐鲁民居因时因地制宜的营造智慧。"
+        },
+        {
+          "id": "qiguo_duicheng", "name": "齐国城墙遗址", "type": "folk", "era": "先秦",
+          "location": "淄博临淄", "year": "前850", "protection": "全国重点文保",
+          "params": { "bays": "-", "ridgeHeight": 8, "baseHeight": 2, "area": 15000 },
+          "techLevel": 2, "color": "#7BA383",
+          "description": "齐国都城城墙遗址，夯土版筑，周长约14公里，是中国现存最早的古城墙之一。",
+          "story": "临淄城墙采用版筑夯土技术，分层夯实，每层厚约8-10厘米。城墙基宽约20米，顶部宽约10米，可以并行两辆战车。"
+        },
+        {
+          "id": "qilu_tumuya", "name": "齐鲁土窑遗址", "type": "folk", "era": "先秦",
+          "location": "山东多地", "year": "前500", "protection": "考古遗址",
+          "params": { "bays": "-", "ridgeHeight": 3, "baseHeight": 0, "area": 30 },
+          "techLevel": 1, "color": "#7BA383",
+          "description": "齐鲁地区早期半地穴式居住遗址，利用黄土台地挖掘洞穴，顶部覆土或架木。",
+          "story": "山东地区黄土层深厚，先民利用这一自然条件创造了窑洞式居住方式，这种技术后来在鲁中山区延续了两千多年。"
+        },
+        {
+          "id": "xianqin_weiwu", "name": "齐国军事防御遗址", "type": "official", "era": "先秦",
+          "location": "淄博临淄", "year": "前600", "protection": "遗址保护",
+          "params": { "bays": "-", "ridgeHeight": 6, "baseHeight": 3, "area": 2000 },
+          "techLevel": 2, "color": "#D4A944",
+          "description": "齐国军事设施遗址，包括瞭望台、烽火台等。夯土筑成，是齐国军事防御体系的组成部分。",
+          "story": "齐国是最早系统修建军事防御工程的诸侯国之一，其筑城技术影响了后来的万里长城。"
+        },
+        {
+          "id": "qishi_zhitan", "name": "齐都冶铁遗址建筑", "type": "palace", "era": "先秦",
+          "location": "淄博临淄", "year": "前500", "protection": "全国重点文保",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 1, "area": 500 },
+          "techLevel": 2, "color": "#C4392B",
+          "description": "齐国官营冶铁作坊遗址，发现冶炼炉、工棚建筑基础。是古代最大的冶铁中心之一。",
+          "story": "齐国冶铁技术领先天下，'齐国产铁'闻名诸侯。官营作坊占地数千平方米，建筑规模宏大，反映了齐国强大的经济实力。"
+        },
+        {
+          "id": "xianqin_guqiao", "name": "齐地古道桥遗址", "type": "bridge", "era": "先秦",
+          "location": "淄博临淄", "year": "前600", "protection": "考古遗址",
+          "params": { "bays": "-", "ridgeHeight": 3, "baseHeight": 0, "span": 4, "area": 50 },
+          "techLevel": 1, "color": "#6B8DAD",
+          "description": "齐国古道石桥遗址，为简易石板桥或木桥。是齐鲁地区最早的桥梁遗迹。",
+          "story": "齐国发达的交通网络需要大量桥梁，《管子》中记载了齐国修路建桥的制度化管理。"
+        }
+      ]
+    },
+    {
+      "id": "qinhan",
+      "name": "秦汉",
+      "period": "前221 - 220",
+      "subtitle": "大一统 · 砖瓦普及",
+      "description": "秦统一后推行郡县制，济南设郡。砖瓦技术开始普及，瓦屋面取代茅草顶，建筑进入砖木时代。",
+      "center": "齐郡济南",
+      "techFeatures": {
+        "structure": "砖木混合结构普及",
+        "roof": "灰瓦覆顶+简陋斗拱萌芽",
+        "dougong": "一斗二升·初具雏形",
+        "material": "砖、瓦、木材、石材",
+        "decoration": "画像砖、瓦当纹饰"
+      },
+      "stats": { "total": 9, "palace": 1, "official": 2, "folk": 4, "bridge": 2 },
+      "buildings": [
+        {
+          "id": "qijun_taishou", "name": "齐郡太守府", "type": "official", "era": "秦汉",
+          "location": "济南历城", "year": "前202", "protection": "遗址考证",
+          "params": { "bays": 5, "ridgeHeight": 8, "baseHeight": 1.5, "area": 1200 },
+          "techLevel": 3, "color": "#D4A944",
+          "description": "汉代济南郡治所建筑，依文献推测为五开间歇山顶建筑，砖瓦结构。",
+          "story": "汉代济南郡辖域广阔，太守府是地方行政中心。考古发现汉代瓦当、铺地砖等建筑构件，印证了当时官府建筑的规制。"
+        },
+        {
+          "id": "han_liling", "name": "济南国相府", "type": "palace", "era": "秦汉",
+          "location": "济南历下", "year": "前164", "protection": "遗址考证",
+          "params": { "bays": 7, "ridgeHeight": 10, "baseHeight": 2, "area": 2000 },
+          "techLevel": 3, "color": "#C4392B",
+          "description": "汉代济南国（诸侯国）相府建筑。济南曾为诸侯国，其宫殿建筑等级高于一般郡府。",
+          "story": "汉初封刘辟光为济南王，建济南国。虽非帝都，但诸侯国宫殿的建筑规模已相当可观，面阔七间，超过普通郡府。"
+        },
+        {
+          "id": "han_minju_luyang", "name": "汉代鲁阳民居", "type": "folk", "era": "秦汉",
+          "location": "鲁中地区", "year": "前100", "protection": "考古遗址",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 0.8, "area": 80 },
+          "techLevel": 2, "color": "#7BA383",
+          "description": "鲁中地区汉代民居遗址，已从半地穴式转为地面建筑。砖墙基础、土坯墙体、灰瓦屋顶。",
+          "story": "汉代'休养生息'政策下，齐鲁民居质量显著提升。画像石中可见汉代民居多为三开间，一堂二室布局。"
+        },
+        {
+          "id": "han_xiangtang", "name": "孝堂山郭氏墓祠", "type": "palace", "era": "秦汉",
+          "location": "济南长清", "year": "公元1世纪", "protection": "全国重点文保",
+          "params": { "bays": 2, "ridgeHeight": 4, "baseHeight": 1, "area": 100 },
+          "techLevel": 3, "color": "#C4392B",
+          "description": "中国现存最早的地面石构建筑之一。石砌单间，覆歇山顶，雕刻精美画像。",
+          "story": "孝堂山郭氏墓祠建于东汉永建四年（129年），全部用石块砌筑，是目前中国现存最早、保存最完整的石构房屋建筑。"
+        },
+        {
+          "id": "han_shi_qiao", "name": "汉代齐鲁古道石桥", "type": "bridge", "era": "秦汉",
+          "location": "山东多地", "year": "前100", "protection": "考古推测",
+          "params": { "bays": 3, "ridgeHeight": 3, "baseHeight": 1, "span": 5, "area": 40 },
+          "techLevel": 2, "color": "#6B8DAD",
+          "description": "汉代齐鲁古道上发现的石桥遗迹，采用石板平铺或简易石拱结构。",
+          "story": "汉代山东是全国交通最发达的地区之一，官道上的桥梁建设有严格制度，'十里一亭，五里一桥'。"
+        },
+        {
+          "id": "han_minju_dongyi", "name": "东夷石屋民居", "type": "folk", "era": "秦汉",
+          "location": "胶东半岛", "year": "前200", "protection": "考古遗址",
+          "params": { "bays": 2, "ridgeHeight": 3, "baseHeight": 0.5, "area": 40 },
+          "techLevel": 2, "color": "#7BA383",
+          "description": "胶东半岛沿海地区的石砌民居遗迹，利用当地花岗岩垒砌墙体，海草覆顶。",
+          "story": "胶东沿海缺少木材但石材丰富，当地人因地制宜发展出石砌建筑传统。这种海草房民居一直延续到现代。"
+        },
+        {
+          "id": "han_jinan_cishi", "name": "汉代济南刺史部", "type": "official", "era": "秦汉",
+          "location": "济南历城", "year": "前106", "protection": "遗址考证",
+          "params": { "bays": 5, "ridgeHeight": 9, "baseHeight": 1.5, "area": 1500 },
+          "techLevel": 3, "color": "#D4A944",
+          "description": "汉代十三刺史部之一，济南为青州刺史部治所。建筑等级高于普通郡府。",
+          "story": "汉武帝设十三刺史部，青州刺史部驻济南。刺史部不仅是监察机构，也是区域行政中心，其建筑规模在地方官府中名列前茅。"
+        },
+        {
+          "id": "han_minju_luxi", "name": "鲁西南土坯民居", "type": "folk", "era": "秦汉",
+          "location": "鲁西南", "year": "前50", "protection": "考古遗址",
+          "params": { "bays": 3, "ridgeHeight": 4.5, "baseHeight": 0.5, "area": 70 },
+          "techLevel": 2, "color": "#7BA383",
+          "description": "鲁西南地区汉代民居，以土坯砖砌墙、灰瓦覆顶。已形成'一堂两内'的基本格局。",
+          "story": "鲁西南是汉代儒学中心，民居虽然简朴，但已注重中轴对称和礼制布局，厅堂居中、卧室分列两侧。"
+        },
+        {
+          "id": "han_muzhiquan_qiao", "name": "汉代墓群神道桥", "type": "bridge", "era": "秦汉",
+          "location": "山东多地", "year": "公元100", "protection": "考古遗址",
+          "params": { "bays": 1, "ridgeHeight": 2, "baseHeight": 0.5, "span": 3, "area": 15 },
+          "techLevel": 2, "color": "#6B8DAD",
+          "description": "汉代墓葬神道上的石桥遗迹，与画像石墓共同构成地上建筑群。",
+          "story": "山东汉代画像石墓闻名天下，许多大型墓葬的神道上设有石桥，连接墓地与外部道路，兼具实用与仪式功能。"
+        }
+      ]
+    },
+    {
+      "id": "suitang",
+      "name": "隋唐",
+      "period": "581 - 907",
+      "subtitle": "盛世营造 · 规制定型",
+      "description": "唐代是中国建筑发展的巅峰时期。营造技术趋于成熟，斗拱标准化，屋顶形制完备。齐鲁地区以青州为佛教建筑中心。",
+      "center": "青州府城",
+      "techFeatures": {
+        "structure": "抬梁式木构成熟",
+        "roof": "庑殿/歇山顶标准化",
+        "dougong": "一斗三升·补间铺作出现",
+        "material": "砖瓦木石、琉璃初现",
+        "decoration": "彩画、石刻、壁画"
+      },
+      "stats": { "total": 8, "palace": 1, "official": 2, "folk": 2, "bridge": 3 },
+      "buildings": [
+        {
+          "id": "tang_longxingsi", "name": "青州龙兴寺佛殿", "type": "palace", "era": "隋唐",
+          "location": "青州", "year": "公元698", "protection": "遗址保护",
+          "params": { "bays": 7, "ridgeHeight": 15, "baseHeight": 2.5, "area": 2500 },
+          "techLevel": 4, "color": "#C4392B",
+          "description": "唐代龙兴寺主体佛殿，面阔七间，歇山顶。虽已毁，但遗址和出土文物可还原其规模。",
+          "story": "青州龙兴寺是唐代北方最重要的佛寺之一。1996年窖藏出土400余尊佛教造像，其中部分造像背光上的建筑图案反映了唐代建筑的精确形制。"
+        },
+        {
+          "id": "tang_qingzhou_cishi", "name": "青州刺史府", "type": "official", "era": "隋唐",
+          "location": "青州", "year": "公元618", "protection": "遗址考证",
+          "params": { "bays": 5, "ridgeHeight": 10, "baseHeight": 2, "area": 1800 },
+          "techLevel": 4, "color": "#D4A944",
+          "description": "唐代青州刺史治所。青州为唐代重镇，刺史府建筑等级较高。",
+          "story": "唐代青州辖域包括今天的潍坊、淄博、东营等地区，是东方军事重镇和商贸中心。刺史府建筑采用唐代官式做法，斗拱疏朗宏大。"
+        },
+        {
+          "id": "tang_shihuang", "name": "唐代石匣桥", "type": "bridge", "era": "隋唐",
+          "location": "济南", "year": "公元700", "protection": "考古推测",
+          "params": { "bays": 3, "ridgeHeight": 4, "baseHeight": 1.5, "span": 8, "area": 60 },
+          "techLevel": 3, "color": "#6B8DAD",
+          "description": "唐代齐鲁地区发现的石拱桥遗迹。采用并列砌拱法，是唐代桥梁技术的实物证据。",
+          "story": "唐代山东水运发达，桥梁建设技术显著提升。石拱桥取代了汉代的石板桥和木桥，跨度更大、承重更强。"
+        },
+        {
+          "id": "tang_minju_yishan", "name": "唐代沂山山居", "type": "folk", "era": "隋唐",
+          "location": "临朐沂山", "year": "公元750", "protection": "考古推测",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 1, "area": 90 },
+          "techLevel": 3, "color": "#7BA383",
+          "description": "沂山地区唐代山居建筑遗迹。石砌基础、土坯墙体、灰瓦硬山顶。",
+          "story": "唐代隐逸文化兴盛，许多文人在沂山、泰山等名胜修建山居。这些建筑虽简朴，但已有了'院落围合'的雏形。"
+        },
+        {
+          "id": "tang_jinan_fu", "name": "济南府衙（隋唐）", "type": "official", "era": "隋唐",
+          "location": "济南历下", "year": "公元596", "protection": "遗址考证",
+          "params": { "bays": 5, "ridgeHeight": 9, "baseHeight": 1.5, "area": 1500 },
+          "techLevel": 3, "color": "#D4A944",
+          "description": "隋开皇十六年设济南府，府衙建筑自此开始有明确记载。",
+          "story": "济南之名始于隋代。隋唐时期济南为青州治下的重要州府，其衙署建筑奠定了后来千年的基本格局。"
+        },
+        {
+          "id": "tang_shifo_si", "name": "唐代千佛山石刻建筑", "type": "folk", "era": "隋唐",
+          "location": "济南历下", "year": "公元650", "protection": "全国重点文保",
+          "params": { "bays": 3, "ridgeHeight": 6, "baseHeight": 1, "area": 200 },
+          "techLevel": 3, "color": "#7BA383",
+          "description": "千佛山隋唐时期摩崖石刻及附属石龛建筑群，反映唐代石刻建筑技术。",
+          "story": "千佛山古称历山，隋唐时期佛教兴盛，开凿了大量石窟和石龛。这些石刻建筑不仅是宗教遗产，也是唐代建筑形制的重要实物。"
+        },
+        {
+          "id": "tang_lingzi_guqiao", "name": "唐代淄河古桥", "type": "bridge", "era": "隋唐",
+          "location": "淄博", "year": "公元720", "protection": "考古推测",
+          "params": { "bays": 5, "ridgeHeight": 5, "baseHeight": 2, "span": 10, "area": 100 },
+          "techLevel": 3, "color": "#6B8DAD",
+          "description": "唐代淄河上的石拱桥，连接临淄与青州的官道要冲。",
+          "story": "唐代淄河是连接齐地东西两岸的重要通道，官道上的桥梁采用多孔石拱结构，既能泄洪又能通行车马。"
+        },
+        {
+          "id": "tang_daminghu", "name": "唐代大明湖建筑群", "type": "folk", "era": "隋唐",
+          "location": "济南历下", "year": "公元750", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 7, "baseHeight": 1, "area": 300 },
+          "techLevel": 3, "color": "#7BA383",
+          "description": "唐代大明湖周边已有亭台楼阁建筑，是济南园林建筑的滥觞。",
+          "story": "唐代大明湖称'莲子湖'，水面广阔。李白、杜甫等诗人游历济南，留下大量描写湖畔建筑的诗篇。"
+        }
+      ]
+    },
+    {
+      "id": "song",
+      "name": "宋代",
+      "period": "960 - 1279",
+      "subtitle": "营造法式 · 巅峰定型",
+      "description": "宋代李诫编撰《营造法式》，是中国建筑史上的里程碑。济南为京东东路首府，城市营造进入制度化时代。",
+      "center": "济南府城",
+      "techFeatures": {
+        "structure": "殿堂/厅堂二分法成熟",
+        "roof": "歇山顶普及·硬山顶出现",
+        "dougong": "五铺作·标准化模数",
+        "material": "砖瓦成熟·琉璃瓦使用",
+        "decoration": "彩画制度化·砖雕兴起"
+      },
+      "stats": { "total": 10, "palace": 1, "official": 3, "folk": 4, "bridge": 2 },
+      "buildings": [
+        {
+          "id": "song_jinan_fuya", "name": "济南府衙（宋代扩修）", "type": "official", "era": "宋代",
+          "location": "济南历下", "year": "北宋", "protection": "历史考证",
+          "params": { "bays": 5, "ridgeHeight": 10, "baseHeight": 2, "area": 2000 },
+          "techLevel": 5, "color": "#D4A944",
+          "description": "宋代济南府衙主体建筑。济南为京东东路首府，府衙规模在地方官府中首屈一指。",
+          "story": "北宋济南知府曾巩对府衙进行大规模修缮，并修筑了城墙和水利工程。曾巩治济期间大兴营造，奠定了济南城市格局。"
+        },
+        {
+          "id": "song_baoqiao", "name": "趵突泉古建筑群", "type": "folk", "era": "宋代",
+          "location": "济南历下", "year": "北宋", "protection": "省级文保",
+          "params": { "bays": 3, "ridgeHeight": 6, "baseHeight": 1, "area": 500 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "趵突泉周边宋代建筑群，包括观澜亭、来鹤桥等。是济南泉文化建筑的开端。",
+          "story": "宋代趵突泉已有'天下第一泉'之誉。曾巩在泉边修建亭台，取'泺水'之意。这些建筑虽经后世重修，但基本格局沿用宋代。"
+        },
+        {
+          "id": "song_daminghu_louge", "name": "宋代大明湖楼阁", "type": "folk", "era": "宋代",
+          "location": "济南历下", "year": "北宋", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 8, "baseHeight": 1.5, "area": 300 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "宋代大明湖畔的楼阁建筑群，包括北水阁、湖心亭等。",
+          "story": "宋代济南号称'泉城'，大明湖与趵突泉、千佛山并称济南三胜。湖畔楼阁成为文人雅集之所，建筑风格清新雅致。"
+        },
+        {
+          "id": "song_licheng_xianya", "name": "历城县衙", "type": "official", "era": "宋代",
+          "location": "济南历城", "year": "北宋", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 7, "baseHeight": 1, "area": 800 },
+          "techLevel": 4, "color": "#D4A944",
+          "description": "宋代历城县衙，附属于济南府衙。三开间硬山顶，符合县级衙署规制。",
+          "story": "宋代实行府县两级制，历城县衙是济南府治下的重要县级衙署。其建筑规模虽不及府衙，但布局同样严谨对称。"
+        },
+        {
+          "id": "song_minju_nanbu", "name": "宋代鲁南民居", "type": "folk", "era": "宋代",
+          "location": "鲁南地区", "year": "北宋", "protection": "考古推测",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 0.8, "area": 100 },
+          "techLevel": 3, "color": "#7BA383",
+          "description": "鲁南地区宋代民居，砖瓦结构已全面普及。三合院布局开始出现。",
+          "story": "宋代经济繁荣推动了民居质量提升。鲁南地区开始出现'三合院'布局，正房居中、厢房分列，奠定了北方四合院的基础。"
+        },
+        {
+          "id": "song_jidao_qiao", "name": "宋代济水古桥群", "type": "bridge", "era": "宋代",
+          "location": "济南", "year": "北宋", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 2, "span": 12, "area": 80 },
+          "techLevel": 4, "color": "#6B8DAD",
+          "description": "宋代济水（今黄河）两岸的石桥群，采用石拱技术，跨度显著增大。",
+          "story": "宋代济南是京东东路水陆交通枢纽，桥梁建设技术处于全国前列。《营造法式》中对石拱桥的砌筑方法有详细规定。"
+        },
+        {
+          "id": "song_dongchang_guan", "name": "宋代东昌府衙", "type": "official", "era": "宋代",
+          "location": "聊城", "year": "北宋", "protection": "历史考证",
+          "params": { "bays": 5, "ridgeHeight": 9, "baseHeight": 1.5, "area": 1800 },
+          "techLevel": 4, "color": "#D4A944",
+          "description": "宋代东昌府（今聊城）府衙建筑，为京东东路重要州府之一。",
+          "story": "东昌府扼守大运河要冲，宋代即为军事重镇。其府衙建筑规模仅次于济南府衙，体现了宋代地方行政体系的层级结构。"
+        },
+        {
+          "id": "song_minju_yantai", "name": "宋代胶东海草房", "type": "folk", "era": "宋代",
+          "location": "烟台威海", "year": "北宋", "protection": "省级非遗",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 1, "area": 80 },
+          "techLevel": 3, "color": "#7BA383",
+          "description": "胶东沿海传统民居，石砌墙体、海草覆顶。冬暖夏凉，是气候适应建筑的典型。",
+          "story": "海草房是胶东半岛独特的建筑形式，使用海边晒干的海草作为屋顶材料，冬暖夏凉，可使用数十年不腐。这一传统延续至今。"
+        },
+        {
+          "id": "song_taishi_guan", "name": "宋代泰山岱庙", "type": "palace", "era": "宋代",
+          "location": "泰安", "year": "1009", "protection": "全国重点文保",
+          "params": { "bays": 5, "ridgeHeight": 12, "baseHeight": 3, "area": 3000 },
+          "techLevel": 5, "color": "#C4392B",
+          "description": "宋代重修的岱庙（东岳庙），是泰山脚下最宏大的建筑群。虽经后世多次重修，仍保留宋代格局。",
+          "story": "宋真宗大中祥符年间大规模重修岱庙，形成今天所见的基本格局。岱庙主殿天贶殿面阔九间，是继三大殿之后的第三大殿。"
+        },
+        {
+          "id": "song_weishui_qiao", "name": "宋代潍水石桥", "type": "bridge", "era": "宋代",
+          "location": "潍坊", "year": "北宋", "protection": "考古推测",
+          "params": { "bays": 3, "ridgeHeight": 4, "baseHeight": 1.5, "span": 8, "area": 50 },
+          "techLevel": 4, "color": "#6B8DAD",
+          "description": "宋代潍河上的石拱桥，连接胶东与内陆的交通要道。",
+          "story": "宋代潍州（今潍坊）是山东东部商贸重镇，潍河上的石桥是胶东通往内陆的必经之路。"
+        }
+      ]
+    },
+    {
+      "id": "ming",
+      "name": "明代",
+      "period": "1368 - 1644",
+      "subtitle": "制度鼎盛 · 百花齐放",
+      "description": "明代是齐鲁建筑最繁荣的时期。砖瓦全面普及，章丘县衙定型，朱家峪开建，绣惠古桥落成。民居、官府、桥梁百花齐放。",
+      "center": "济南·章丘",
+      "techFeatures": {
+        "structure": "抬梁式成熟·砖墙普及",
+        "roof": "硬山顶为主·庑殿/歇山用于高等级",
+        "dougong": "三踩/五踩·装饰化趋势",
+        "material": "青砖灰瓦·石材精加工",
+        "decoration": "砖雕木雕·彩画制度化"
+      },
+      "stats": { "total": 14, "palace": 2, "official": 4, "folk": 5, "bridge": 3 },
+      "buildings": [
+        {
+          "id": "ming_zhangqiu_xianya", "name": "章丘县衙", "type": "official", "era": "明代",
+          "location": "章丘绣惠", "year": "明洪武", "protection": "省级文保",
+          "params": { "bays": 5, "ridgeHeight": 8, "baseHeight": 1.5, "area": 1200 },
+          "techLevel": 4, "color": "#D4A944",
+          "description": "明代章丘县衙，坐北朝南，三进院落。是山东现存最完整的县级衙署之一。",
+          "story": "章丘县衙始建于明洪武年间，历经明清两代修缮。整个建筑群沿中轴线布局，依次为大门、大堂、二堂、内宅，是明代县级衙署的典型代表。"
+        },
+        {
+          "id": "ming_zhujiayu", "name": "朱家峪古村", "type": "folk", "era": "明代",
+          "location": "章丘官庄", "year": "明洪武", "protection": "省级文保",
+          "params": { "bays": 3, "ridgeHeight": 6, "baseHeight": 1.5, "area": 200 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "齐鲁第一村，明洪武年间建村。保存完整的明清古建筑群，包括祠堂、楼阁、古桥、古道等。",
+          "story": "朱家峪自明洪武年间建村，至今已有600多年历史。村内保存有200余栋明清古建筑，是中国北方地区保存最完好的古村落之一。电视剧《闯关东》在此取景。"
+        },
+        {
+          "id": "ming_xiuhui_qiao", "name": "绣惠古桥群", "type": "bridge", "era": "明代",
+          "location": "章丘绣惠", "year": "明代", "protection": "区级文保",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 2, "span": 10, "area": 60 },
+          "techLevel": 4, "color": "#6B8DAD",
+          "description": "绣惠镇明清古桥群，横跨绣江河。多孔石拱结构，是章丘古代交通的重要遗存。",
+          "story": "绣惠古桥群是章丘古代水运交通的重要节点。章丘铁器、章丘大葱等特产经此桥运往济南各地。"
+        },
+        {
+          "id": "ming_jinan_fuya_chongxiu", "name": "济南府衙（明代重修）", "type": "official", "era": "明代",
+          "location": "济南历下", "year": "洪武九年", "protection": "历史考证",
+          "params": { "bays": 5, "ridgeHeight": 10, "baseHeight": 2, "area": 2500 },
+          "techLevel": 5, "color": "#D4A944",
+          "description": "明代济南府衙大规模重修，形成三路多进的大型衙署建筑群。是山东最高级别地方官府。",
+          "story": "洪武九年济南设为山东省会，府衙进行了大规模扩建。中路为正堂系列，东西两路为附属办公和生活区，总占地面积超过10亩。"
+        },
+        {
+          "id": "ming_sandefan", "name": "三德范古村", "type": "folk", "era": "明代",
+          "location": "章丘文祖", "year": "明代中期", "protection": "省级文保",
+          "params": { "bays": 3, "ridgeHeight": 5.5, "baseHeight": 1.2, "area": 150 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "章丘三德范古村，保存完好的明清民居建筑群。石砌院墙、青砖房屋、窄巷深院。",
+          "story": "三德范古村是章丘山区民居的代表。村落依山而建，利用地形高差形成独特的阶梯式布局，家家户户门前石板路相连。"
+        },
+        {
+          "id": "ming_baoqiao_laihe", "name": "来鹤桥", "type": "bridge", "era": "明代",
+          "location": "济南历下", "year": "明代万历", "protection": "与趵突泉一体保护",
+          "params": { "bays": 1, "ridgeHeight": 3, "baseHeight": 1, "span": 6, "area": 30 },
+          "techLevel": 3, "color": "#6B8DAD",
+          "description": "趵突泉东侧来鹤桥，单孔石拱桥。连接泉池与小沧浪亭。",
+          "story": "来鹤桥取'仙鹤来仪'之意，是趵突泉园林的重要组成部分。桥身小巧精致，与泉水相映成趣。"
+        },
+        {
+          "id": "ming_daminghu_tingge", "name": "大明湖历下亭", "type": "folk", "era": "明代",
+          "location": "济南历下", "year": "明代重修", "protection": "省级文保",
+          "params": { "bays": 5, "ridgeHeight": 10, "baseHeight": 1, "area": 500 },
+          "techLevel": 5, "color": "#7BA383",
+          "description": "大明湖中的历下亭，四面环水，是济南标志性建筑。现存建筑为明代格局。",
+          "story": "历下亭因杜甫'海右此亭古，济南名士多'闻名天下。明代重修后的历下亭面阔五间，八角重檐，是大明湖的视觉中心。"
+        },
+        {
+          "id": "ming_laiwu_guya", "name": "莱芜古民居群", "type": "folk", "era": "明代",
+          "location": "莱芜", "year": "明代", "protection": "区级文保",
+          "params": { "bays": 3, "ridgeHeight": 5, "baseHeight": 1, "area": 120 },
+          "techLevel": 3, "color": "#7BA383",
+          "description": "莱芜地区明代民居，石砌墙体、木梁架结构。体现了鲁中山区民居的实用风格。",
+          "story": "莱芜位于鲁中山区，盛产石材。当地民居充分利用石材优势，墙基和院墙均用石块砌筑，坚固耐用。"
+        },
+        {
+          "id": "ming_penglai_ge", "name": "蓬莱阁", "type": "palace", "era": "明代",
+          "location": "烟台蓬莱", "year": "1065年建/明嘉庆修", "protection": "全国重点文保",
+          "params": { "bays": 3, "ridgeHeight": 15, "baseHeight": 3, "area": 800 },
+          "techLevel": 5, "color": "#C4392B",
+          "description": "蓬莱阁建筑群，坐落丹崖山巅。宋代始建，明代大规模扩建。是中国四大名楼之一。",
+          "story": "蓬莱阁因'八仙过海'传说闻名天下。明嘉庆年间大规模扩建，形成了包括天后宫、龙王宫、弥陀寺等在内的建筑群，规模宏大。"
+        },
+        {
+          "id": "ming_zhoucun_xianya", "name": "邹平县衙", "type": "official", "era": "明代",
+          "location": "邹平", "year": "明代", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 7, "baseHeight": 1, "area": 900 },
+          "techLevel": 3, "color": "#D4A944",
+          "description": "明代邹平县衙，三开间硬山顶。是明代县级衙署的普通代表。",
+          "story": "邹平县衙代表了明代普通县级衙署的建制标准。三开间大门、五开间大堂，规制简洁但不失庄重。"
+        },
+        {
+          "id": "ming_daminggai", "name": "大明湖南丰祠", "type": "folk", "era": "明代",
+          "location": "济南历下", "year": "明代", "protection": "市级文保",
+          "params": { "bays": 3, "ridgeHeight": 7, "baseHeight": 1, "area": 400 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "大明湖畔南丰祠，纪念宋代知州曾巩。明代建筑，庭院式布局。",
+          "story": "曾巩治济期间大兴水利，济南百姓感念其功绩修建南丰祠。现存建筑为明代风格，是济南纪念性建筑的代表。"
+        },
+        {
+          "id": "ming_qihe_qiao", "name": "齐河古桥", "type": "bridge", "era": "明代",
+          "location": "齐河", "year": "明代", "protection": "考古推测",
+          "params": { "bays": 5, "ridgeHeight": 6, "baseHeight": 2, "span": 15, "area": 120 },
+          "techLevel": 4, "color": "#6B8DAD",
+          "description": "齐河跨黄河古桥，明代修建。多孔石墩木面桥，是济南北部交通要道。",
+          "story": "齐河地处黄河北岸，明代修建了多座跨河桥梁，连接济南与鲁北地区。这些桥梁采用石墩木面结构，汛期可拆卸。"
+        },
+        {
+          "id": "ming_yanzhou_fu", "name": "兖州府衙", "type": "official", "era": "明代",
+          "location": "济宁兖州", "year": "明代", "protection": "历史考证",
+          "params": { "bays": 5, "ridgeHeight": 10, "baseHeight": 2, "area": 2200 },
+          "techLevel": 5, "color": "#D4A944",
+          "description": "明代兖州府衙。兖州是明代鲁藩封地，府衙建筑等级较高。",
+          "story": "明代兖州设鲁王府，虽藩王府邸非本文范围，但兖州府衙作为地方行政中心，建筑规模仅次于济南府衙。"
+        },
+        {
+          "id": "ming_daminghu_chenghuang", "name": "济南府城隍庙", "type": "palace", "era": "明代",
+          "location": "济南历下", "year": "明洪武", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 8, "baseHeight": 1.5, "area": 1500 },
+          "techLevel": 4, "color": "#C4392B",
+          "description": "明代济南府城隍庙，是济南府城的重要公共建筑。面阔三间，歇山顶。",
+          "story": "明洪武年间全国府县皆建城隍庙，济南府城隍庙是山东等级最高的城隍庙。其建筑形制参照府衙格局，体现了明代建筑等级制度。"
+        }
+      ]
+    },
+    {
+      "id": "qing",
+      "name": "清代",
+      "period": "1644 - 1911",
+      "subtitle": "集大成 · 泉城定型",
+      "description": "清代齐鲁建筑集历代之大成。朱家峪鼎盛、曲水亭街形成、官府建筑终制。民居装饰日益繁复，砖雕木雕达到工艺巅峰。",
+      "center": "泉城济南",
+      "techFeatures": {
+        "structure": "砖木结构成熟·体系完备",
+        "roof": "硬山顶普及·装饰构件增多",
+        "dougong": "装饰化·简化",
+        "material": "青砖精砌·琉璃瓦·石材",
+        "decoration": "砖雕木雕石雕·彩画精美"
+      },
+      "stats": { "total": 13, "palace": 2, "official": 3, "folk": 5, "bridge": 3 },
+      "buildings": [
+        {
+          "id": "qing_zhujiayu_dingsheng", "name": "朱家峪（清代鼎盛）", "type": "folk", "era": "清代",
+          "location": "章丘官庄", "year": "清代", "protection": "省级文保",
+          "params": { "bays": 3, "ridgeHeight": 6.5, "baseHeight": 1.5, "area": 250 },
+          "techLevel": 5, "color": "#7BA383",
+          "description": "清代朱家峪达到鼎盛，村中新增文昌阁、关帝庙、戏台等公共建筑，形成完整的山村社会空间。",
+          "story": "清代朱家峪人口达到300余户，村内书院、祠堂、戏台一应俱全。其古建筑群完整保存了明清两代北方山村的社会结构和生活场景。"
+        },
+        {
+          "id": "qing_qushuiting", "name": "曲水亭街", "type": "folk", "era": "清代",
+          "location": "济南历下", "year": "清代", "protection": "历史文化街区",
+          "params": { "bays": 3, "ridgeHeight": 6, "baseHeight": 1, "area": 100 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "济南最有特色的泉水民居街区。家家泉水、户户垂杨，青砖灰瓦，是泉城文化的活化石。",
+          "story": "曲水亭街因'曲水流觞'得名。清代这里是济南文人聚居地，家家门前有泉，院中有池。这种'泉水穿院'的建筑格局全国独一无二。"
+        },
+        {
+          "id": "qing_zhangqiu_xianya_zhongxiu", "name": "章丘县衙（清代终制）", "type": "official", "era": "清代",
+          "location": "章丘绣惠", "year": "清乾隆重修", "protection": "省级文保",
+          "params": { "bays": 5, "ridgeHeight": 8.5, "baseHeight": 1.5, "area": 1300 },
+          "techLevel": 5, "color": "#D4A944",
+          "description": "清代乾隆年间章丘县衙大修，形成最终的格局。现存建筑基本为清代遗构。",
+          "story": "清代章丘县衙在明代基础上进行了大规模修缮和扩建，增加了砖雕装饰、彩色琉璃瓦件。乾隆年间的大修使县衙达到了规制允许的最高等级。"
+        },
+        {
+          "id": "qing_furongjie", "name": "芙蓉街老院", "type": "folk", "era": "清代",
+          "location": "济南历下", "year": "清代", "protection": "历史文化街区",
+          "params": { "bays": 3, "ridgeHeight": 6, "baseHeight": 1, "area": 90 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "芙蓉街是济南最古老的商业街，两侧民居多为清代前店后居式建筑。",
+          "story": "芙蓉街因街中芙蓉泉得名。清代这里店铺林立、商贾云集。建筑多为两层砖木结构，下层经商、上层居住，是济南商业民居的典型。"
+        },
+        {
+          "id": "qing_baotuquan_louge", "name": "趵突泉泺源堂", "type": "folk", "era": "清代",
+          "location": "济南历下", "year": "清康熙", "protection": "市级文保",
+          "params": { "bays": 3, "ridgeHeight": 8, "baseHeight": 1.5, "area": 350 },
+          "techLevel": 5, "color": "#7BA383",
+          "description": "趵突泉北岸泺源堂，面对泉池。面阔三间，歇山顶，是清代泉边建筑的精品。",
+          "story": "康熙南巡时曾到趵突泉，题写'激湍'二字。泺源堂在清代多次修缮，融合了北方官式与南方园林的建筑风格。"
+        },
+        {
+          "id": "qing_penglai_shui", "name": "蓬莱水城", "type": "palace", "era": "清代",
+          "location": "烟台蓬莱", "year": "清初扩建", "protection": "全国重点文保",
+          "params": { "bays": 5, "ridgeHeight": 10, "baseHeight": 3, "area": 2000 },
+          "techLevel": 5, "color": "#C4392B",
+          "description": "蓬莱水城是中国现存最完整的古代水军基地，清初大规模扩建。城墙、炮台、码头等建筑保存完好。",
+          "story": "蓬莱水城始建于宋代，清初为防御倭寇进行了大规模扩建。水城由城墙围合，内有炮台、军营、码头、仓储等设施，是中国古代海军基地建筑的活化石。"
+        },
+        {
+          "id": "qing_jinan_fu_chongxiu", "name": "济南府衙（清代终制）", "type": "official", "era": "清代",
+          "location": "济南历下", "year": "清代", "protection": "历史考证",
+          "params": { "bays": 5, "ridgeHeight": 10.5, "baseHeight": 2, "area": 2600 },
+          "techLevel": 5, "color": "#D4A944",
+          "description": "清代济南府衙在明代基础上进一步完善。作为山东省会府衙，建筑达到地方官府的最高规格。",
+          "story": "清代济南为山东省会，府衙是全省行政中心。建筑群规模宏大，中轴线上依次排列大门、仪门、大堂、二堂、内宅，东西两路各有附属建筑数十间。"
+        },
+        {
+          "id": "qing_liaocheng_guya", "name": "聊城古民居", "type": "folk", "era": "清代",
+          "location": "聊城东昌府", "year": "清代", "protection": "历史文化街区",
+          "params": { "bays": 3, "ridgeHeight": 6, "baseHeight": 1, "area": 120 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "聊城东昌府古民居，运河文化影响下的北方民居。青砖灰瓦，院落规整。",
+          "story": "聊城因京杭大运河而兴盛，清代是运河沿岸重要的商贸城市。民居融合了南北建筑风格，既有北方的厚重，又有南方的灵动。"
+        },
+        {
+          "id": "qing_baoqiao_guqiao", "name": "趵突泉五龙潭古桥", "type": "bridge", "era": "清代",
+          "location": "济南历下", "year": "清代", "protection": "与景区一体保护",
+          "params": { "bays": 1, "ridgeHeight": 3.5, "baseHeight": 1, "span": 5, "area": 25 },
+          "techLevel": 4, "color": "#6B8DAD",
+          "description": "五龙潭公园内清代古桥，单孔石拱，连接潭边亭台。",
+          "story": "五龙潭古桥是济南泉群中保存较好的清代石桥。桥身简洁古朴，与五龙潭的幽静环境相得益彰。"
+        },
+        {
+          "id": "qing_daminghu_tiegong", "name": "大明湖铁公祠", "type": "folk", "era": "清代",
+          "location": "济南历下", "year": "清乾隆", "protection": "市级文保",
+          "params": { "bays": 3, "ridgeHeight": 7, "baseHeight": 1, "area": 300 },
+          "techLevel": 5, "color": "#7BA383",
+          "description": "大明湖铁公祠，纪念明代济南保卫战中殉城的铁铉。清代建筑，庭院精美。",
+          "story": "铁铉在靖难之役中死守济南，被后世敬仰。清乾隆年间建铁公祠，院内假山回廊，是济南园林建筑的精品。"
+        },
+        {
+          "id": "qing_xiuhui_qiao_qingxiu", "name": "绣惠古桥（清代重修）", "type": "bridge", "era": "清代",
+          "location": "章丘绣惠", "year": "清乾隆重修", "protection": "区级文保",
+          "params": { "bays": 3, "ridgeHeight": 5.5, "baseHeight": 2, "span": 11, "area": 70 },
+          "techLevel": 4, "color": "#6B8DAD",
+          "description": "清代乾隆年间绣惠古桥重修，加设石栏杆，雕刻精美。是章丘现存最好的古桥。",
+          "story": "清代章丘人口增长、商贸繁荣，绣惠古桥进行了大规模重修。桥面加宽，两侧增设石栏杆，桥头增建碑亭，功能更加完善。"
+        },
+        {
+          "id": "qing_linqing_guya", "name": "临清运河民居", "type": "folk", "era": "清代",
+          "location": "临清", "year": "清代", "protection": "历史文化名城",
+          "params": { "bays": 3, "ridgeHeight": 5.5, "baseHeight": 1, "area": 110 },
+          "techLevel": 4, "color": "#7BA383",
+          "description": "临清运河两岸的清代民居，因运河贸易而兴盛。商业建筑与居住建筑混合布局。",
+          "story": "临清是京杭大运河上的重要商埠，清代'小天津'之称。运河两岸的民居兼具居住和商业功能，形成了独特的运河城市建筑风貌。"
+        },
+        {
+          "id": "qing_haichang_fuya", "name": "海昌府衙", "type": "official", "era": "清代",
+          "location": "无棣", "year": "清代", "protection": "历史考证",
+          "params": { "bays": 3, "ridgeHeight": 7, "baseHeight": 1, "area": 800 },
+          "techLevel": 3, "color": "#D4A944",
+          "description": "清代海昌府（今无棣）府衙建筑。鲁北地区小府衙的典型代表。",
+          "story": "海昌府地处鲁北沿海，清代为海防要地。府衙规模虽不大，但因军事功能增设了档案库和兵器库。"
+        }
+      ]
+    }
+  ]
+}
