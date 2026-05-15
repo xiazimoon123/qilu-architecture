@@ -7909,31 +7909,32 @@ var buildingsData={"dynasties":[{"id":"xianqin","name":"先秦","period":"前770
         }
         
         // GLB模型映射表（逐步替换）
+        var BASE_URL = 'https://github.com/xiazimoon123/qilu-architecture/releases/download/v1.0-models/';
         var glbModels = {
-            '先秦_palace': 'models/27ec349589e6647acdf31f5a95240e6a.glb',
-            '先秦_official': 'models/ac5f74af51c261d64f07aa7dde963c2c.glb',
-            '先秦_bridge': 'models/a17f25a227c4ab661edf6b66edc46047.glb',
-            '先秦_folk': 'models/fb38923f6d79c76b8569ebcf89d05ab1.glb',
-            '秦汉_palace': 'models/57c3bbc43cf1b9d1d8c98a82f7c64427.glb',
-            '秦汉_official': 'models/eca52fa3c2bd004b70aa4b0ed197f66f.glb',
-            '秦汉_folk': 'models/9a561142ec2402cbe7f616e9b3561126.glb',
-            '秦汉_bridge': 'models/d897729d114633cf40ac58d23560a2b1.glb',
-            '隋唐_palace': 'models/922ca9688226aa0925b0f6f43ebf0da8.glb',
-            '隋唐_official': 'models/6e2e6aeb551896fad7fc5c35e39ae973.glb',
-            '隋唐_folk': 'models/299eb3b5205624aa23265c8cb251082b.glb',
-            '隋唐_bridge': 'models/634b4bc78493f9e30091186efd1ae585.glb',
-            '宋代_palace': 'models/12ec09b3995f9de8fe38f7a0686cbe37.glb',
-            '宋代_official': 'models/43104bbc1a9b2070b30836eb807f4544.glb',
-            '宋代_folk': 'models/1993d4d0a6c540c10a327683d965ea57.glb',
-            '宋代_bridge': 'models/511115d3357c8e1916fa7241f6dc0439.glb',
-            '明代_palace': 'models/506e5d4653e68fd3e4edb62e6105eedc.glb',
-            '明代_official': 'models/0f3472a4cc39d0a989747de8d70e0f13.glb',
-            '明代_folk': 'models/453b3b3cb37625805b8aa0bbcfd0a741.glb',
-            '明代_bridge': 'models/565bdd69b90dd8211858b1f0b50bc859.glb',
-            '清代_palace': 'models/b11bbdc2dcc9ee3145ccf0a1053c90e0.glb',
-            '清代_official': 'models/dcfe7de8de6b46f5b122c77badd43599.glb',
-            '清代_folk': 'models/0da375fe2f5e18a2edb6f44481414382.glb',
-            '清代_bridge': 'models/27224986c7f8a13c959f0fb41e684c3a.glb'
+            '先秦_palace': BASE_URL + '27ec349589e6647acdf31f5a95240e6a.glb',
+            '先秦_official': BASE_URL + 'ac5f74af51c261d64f07aa7dde963c2c.glb',
+            '先秦_bridge': BASE_URL + 'a17f25a227c4ab661edf6b66edc46047.glb',
+            '先秦_folk': BASE_URL + 'fb38923f6d79c76b8569ebcf89d05ab1.glb',
+            '秦汉_palace': BASE_URL + '57c3bbc43cf1b9d1d8c98a82f7c64427.glb',
+            '秦汉_official': BASE_URL + 'eca52fa3c2bd004b70aa4b0ed197f66f.glb',
+            '秦汉_folk': BASE_URL + '9a561142ec2402cbe7f616e9b3561126.glb',
+            '秦汉_bridge': BASE_URL + 'd897729d114633cf40ac58d23560a2b1.glb',
+            '隋唐_palace': BASE_URL + '922ca9688226aa0925b0f6f43ebf0da8.glb',
+            '隋唐_official': BASE_URL + '6e2e6aeb551896fad7fc5c35e39ae973.glb',
+            '隋唐_folk': BASE_URL + '299eb3b5205624aa23265c8cb251082b.glb',
+            '隋唐_bridge': BASE_URL + '634b4bc78493f9e30091186efd1ae585.glb',
+            '宋代_palace': BASE_URL + '12ec09b3995f9de8fe38f7a0686cbe37.glb',
+            '宋代_official': BASE_URL + '43104bbc1a9b2070b30836eb807f4544.glb',
+            '宋代_folk': BASE_URL + '1993d4d0a6c540c10a327683d965ea57.glb',
+            '宋代_bridge': BASE_URL + '511115d3357c8e1916fa7241f6dc0439.glb',
+            '明代_palace': BASE_URL + '506e5d4653e68fd3e4edb62e6105eedc.glb',
+            '明代_official': BASE_URL + '0f3472a4cc39d0a989747de8d70e0f13.glb',
+            '明代_folk': BASE_URL + '453b3b3cb37625805b8aa0bbcfd0a741.glb',
+            '明代_bridge': BASE_URL + '565bdd69b90dd8211858b1f0b50bc859.glb',
+            '清代_palace': BASE_URL + 'b11bbdc2dcc9ee3145ccf0a1053c90e0.glb',
+            '清代_official': BASE_URL + 'dcfe7de8de6b46f5b122c77badd43599.glb',
+            '清代_folk': BASE_URL + '0da375fe2f5e18a2edb6f44481414382.glb',
+            '清代_bridge': BASE_URL + '27224986c7f8a13c959f0fb41e684c3a.glb'
         };
         
         Object.keys(typePos).forEach(function(type){
